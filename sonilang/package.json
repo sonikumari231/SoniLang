@@ -1,0 +1,32 @@
+{
+  "name": "sonilang",
+  "displayName": "SoniLang",
+  "description": "SoniLang programming language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sonilang",
+      "aliases": ["SoniLang", "sonilang"],
+      "extensions": [".soni"],
+      "configuration": "./language-configuration.json"
+    }],
+     "iconThemes": [
+    {
+      "id": "sonilang-icons",
+      "label": "SoniLang Icons",
+      "path": "./icons.json"
+    }
+  ],
+    "grammars": [{
+      "language": "sonilang",
+      "scopeName": "source.soni",
+      "path": "./syntaxes/sonilang.tmLanguage.json"
+    }]
+  }
+}

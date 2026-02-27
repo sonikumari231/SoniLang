@@ -1,0 +1,7 @@
+int a = input("Enter number: ");
+string name = input("Enter name: ");
+
+print("Welcome to my programming language");
+
+print(a);
+print(name);

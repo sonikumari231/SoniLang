@@ -1,0 +1,12 @@
+{
+  "name": "sonilang",
+  "version": "1.0.0",
+  "description": "SoniLang Interpreter",
+  "main": "run.js",
+  "bin": {
+    "run": "./run.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

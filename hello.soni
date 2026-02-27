@@ -1,0 +1,3 @@
+int a = 25;
+print(a);
+print("Running from VS Code");

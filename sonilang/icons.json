@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "soni": {
+      "iconPath": "./images/soni.svg"
+    }
+  },
+  "fileExtensions": {
+    "soni": "soni"
+  }
+}
