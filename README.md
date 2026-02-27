@@ -18,3 +18,6 @@ string name = input("Enter name:");
 print("Welcome to SoniLang");
 print(a);
 print(name);
+
+## Run
+run input.soni
